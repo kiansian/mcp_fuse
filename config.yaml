@@ -1,0 +1,40 @@
+# MCP FUSE Report Consolidation Configuration
+# SPE ISCK CKT Team — metal ECO data mining feature
+#
+# Defines NVL (NVLink) partitions for S and H groups.
+# Add additional groups and partitions as needed.
+
+output_dir: "consolidated_output"
+
+groups:
+  NVL_S:
+    description: "NVL S partitions"
+    partitions:
+      - name: "NVL_S_P1"
+        path: "runs/NVL_S/partition1"
+        report_glob: "*.rpt"
+      - name: "NVL_S_P2"
+        path: "runs/NVL_S/partition2"
+        report_glob: "*.rpt"
+      - name: "NVL_S_P3"
+        path: "runs/NVL_S/partition3"
+        report_glob: "*.rpt"
+      - name: "NVL_S_P4"
+        path: "runs/NVL_S/partition4"
+        report_glob: "*.rpt"
+
+  NVL_H:
+    description: "NVL H partitions"
+    partitions:
+      - name: "NVL_H_P1"
+        path: "runs/NVL_H/partition1"
+        report_glob: "*.rpt"
+      - name: "NVL_H_P2"
+        path: "runs/NVL_H/partition2"
+        report_glob: "*.rpt"
+      - name: "NVL_H_P3"
+        path: "runs/NVL_H/partition3"
+        report_glob: "*.rpt"
+      - name: "NVL_H_P4"
+        path: "runs/NVL_H/partition4"
+        report_glob: "*.rpt"
