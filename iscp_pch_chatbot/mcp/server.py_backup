@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+"""
+FastMCP Server for tell_time - Various Usage Examples
+"""
+
+import os
+import sys
+
+from autobots_sdk.base.mcp.servers.base_server import AutobotsMCPStdioServer
+
+mcp_time = AutobotsMCPStdioServer(name="tell_time")
+
+@mcp_time.tool()
+def get_current_time() -> str:
+    """
+    Returns the current local time as a string in the format "HH:MM:SS".
+
+    Returns:
+        str: The current time formatted as "HH:MM:SS".
+    """
+
+    from datetime import datetime
+
+    return datetime.now().strftime("%H:%M:%S")
+
+if __name__ == "__main__":
+    mcp_time.run()

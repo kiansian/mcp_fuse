@@ -1,0 +1,47 @@
+Subject: Block Artifact Report (MD5/Timestamps)
+From: kgoh14@sccg02150704.zsc11.intel.com
+To: kian.sian.goh@intel.com
+Date: Sat, 21 Mar 2026 08:29:56 -0700
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============4120880146800095379=="
+
+--===============4120880146800095379==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Please view this email in HTML mode for the table report.
+
+--===============4120880146800095379==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Block Artifact Report</title>
+  <style>
+    body { font-family: Arial, sans-serif; font-size: 13px; color: #222; }
+    h2 { margin: 0 0 12px 0; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #d0d7de; padding: 6px 8px; text-align: left; }
+    th { background: #f6f8fa; }
+    tr:nth-child(even) { background: #fbfbfb; }
+    .meta { margin: 8px 0 14px; color: #555; }
+  </style>
+</head>
+<body>
+  <h2>Block Artifact Report</h2>
+  <div class="meta">Rows: 4</div>
+  <table>
+    <thead><tr><th>project</th><th>block</th><th>file</th><th>assembly_timestamp</th><th>finish_a_timestamp</th><th>finish_b_timestamp</th><th>assembly_md5</th><th>finish_a_md5</th><th>finish_b_md5</th><th>finish_a_vs_finish_b_match</th><th>assembly_vs_finish_a_match</th><th>assembly_vs_finish_b_match</th></tr></thead>
+    <tbody>
+      <tr><td>PCDH</td><td>parfuse</td><td>parfuse.sp</td><td>2026-03-21 07:04:09</td><td>2026-03-21 07:10:43</td><td>2026-03-21 07:10:43</td><td>742f083d6e300c9ada6c11d8e595204a</td><td>742f083d6e300c9ada6c11d8e595204a</td><td>742f083d6e300c9ada6c11d8e595204a</td><td>YES</td><td>YES</td><td>YES</td></tr><tr><td>PCDH</td><td>parfuse</td><td>parfuse.oas</td><td>2026-03-21 07:08:11</td><td>2026-03-21 07:10:51</td><td>2026-03-21 07:10:51</td><td>44c2af92b374161c9ebc6e6f3f44488a</td><td>44c2af92b374161c9ebc6e6f3f44488a</td><td>44c2af92b374161c9ebc6e6f3f44488a</td><td>YES</td><td>YES</td><td>YES</td></tr><tr><td>PCDH</td><td>parossefuse</td><td>parossefuse.sp</td><td>2026-03-21 06:51:12</td><td>2026-03-21 06:51:12</td><td>2026-03-21 06:51:12</td><td>37b2917aade32e1b2aed1e860c6ae82b</td><td>37b2917aade32e1b2aed1e860c6ae82b</td><td>37b2917aade32e1b2aed1e860c6ae82b</td><td>YES</td><td>YES</td><td>YES</td></tr><tr><td>PCDH</td><td>parossefuse</td><td>parossefuse.oas</td><td>2026-03-21 07:43:19</td><td>2026-03-21 06:55:12</td><td>2026-03-21 06:55:12</td><td>293c6e2baab86b931e296d93052745d6</td><td>ca174f01f7b1c75d9a7132502d6cc57e</td><td>ca174f01f7b1c75d9a7132502d6cc57e</td><td>YES</td><td>NO</td><td>NO</td></tr>
+    </tbody>
+  </table>
+</body>
+</html>
+
+--===============4120880146800095379==--

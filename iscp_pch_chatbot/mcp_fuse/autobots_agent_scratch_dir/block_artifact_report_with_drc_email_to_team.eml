@@ -1,0 +1,197 @@
+Subject: Block Artifact + DRC Rule Report (Refreshed)
+From: kgoh14@sccg02150704.zsc11.intel.com
+To: kian.sian.goh@intel.com, alice.koh.chee@intel.com, Jian.Yan.Yeoh@intel.com,
+ khai.juan.tan@intel.com, Wooi.Phang.Tan@intel.com,
+ george.pek.jing.ting@intel.com
+Date: Sat, 21 Mar 2026 12:16:02 -0700
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============4933561886403876958=="
+
+--===============4933561886403876958==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Please view this email in HTML mode.
+
+--===============4933561886403876958==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<!doctype html>
+<html><head><meta charset=3D'utf-8' />
+<style>
+body { font-family: Arial, sans-serif; font-size: 13px; color: #222; }
+h2, h3 { margin: 0 0 10px 0; }
+table { border-collapse: collapse; width: 100%; margin: 8px 0 16px; }
+th, td { border: 1px solid #d0d7de; padding: 6px 8px; text-align: left; verti=
+cal-align: top; }
+th { background: #f6f8fa; }
+tr:nth-child(even) { background: #fbfbfb; }
+.missing { color: #b42318; font-weight: 600; }
+.mismatch { color: #b54708; font-weight: 600; }
+</style></head><body>
+<h2>Block Artifact + DRC Rule Report</h2>
+<h3>Paths</h3>
+<div><b>parfuse</b><br>Run path: /nfs/site/disks/zsc11_nvlpcd_00097/parfuse/t=
+ankhaij/B0/metalECO_B0TI_prime/runs/parfuse/1276.5<br>Assembly path: /nfs/sit=
+e/disks/zsc11_nvlpcd_00097/parfuse/tankhaij/B0/metalECO_B0TI_prime/runs/parfu=
+se/1276.5/assembly/outputs<br>Finish A path: /nfs/site/disks/zsc11_nvlpcd_000=
+97/parfuse/tankhaij/B0/metalECO_B0TI_prime/runs/parfuse/1276.5/apr_fc/outputs=
+/finish<br>Finish B path: /nfs/site/disks/zsc11_nvlpcd_00097/parfuse/tankhaij=
+/B0/metalECO_B0TI_prime/runs/parfuse/1276.5/release/latest/finish</div><br><d=
+iv><b>parfuse</b><br>Run path: /nfs/site/disks/zsc11_nvlpcdh_00077/parfuse/wo=
+oiphan/B0/metalECO_26ww12p6v3/runs/parfuse/1276.5<br>Assembly path: /nfs/site=
+/disks/zsc11_nvlpcdh_00077/parfuse/wooiphan/B0/metalECO_26ww12p6v3/runs/parfu=
+se/1276.5/assembly/outputs<br>Finish A path: /nfs/site/disks/zsc11_nvlpcdh_00=
+077/parfuse/wooiphan/B0/metalECO_26ww12p6v3/runs/parfuse/1276.5/apr_fc/output=
+s/finish<br>Finish B path: /nfs/site/disks/zsc11_nvlpcdh_00077/parfuse/wooiph=
+an/B0/metalECO_26ww12p6v3/runs/parfuse/1276.5/release/latest/finish</div><br>=
+<div><b>parossefuse</b><br>Run path: /nfs/site/disks/zsc11_nvlpcd_00108/paros=
+sefuse/gting/B0/WW13_prime_eco_manual/runs/parossefuse/1276.5<br>Assembly pat=
+h: /nfs/site/disks/zsc11_nvlpcd_00108/parossefuse/gting/B0/WW13_prime_eco_man=
+ual/runs/parossefuse/1276.5/assembly/outputs<br>Finish A path: /nfs/site/disk=
+s/zsc11_nvlpcd_00108/parossefuse/gting/B0/WW13_prime_eco_manual/runs/parossef=
+use/1276.5/apr_fc/outputs/finish<br>Finish B path: /nfs/site/disks/zsc11_nvlp=
+cd_00108/parossefuse/gting/B0/WW13_prime_eco_manual/runs/parossefuse/1276.5/r=
+elease/latest/finish</div><br><div><b>parossefuse</b><br>Run path: /nfs/site/=
+disks/zsc11_nvlpcdh_00119/parossefuse/jianyany/metalECO/metalECO_WW12.6b/runs=
+/parossefuse/1276.5<br>Assembly path: /nfs/site/disks/zsc11_nvlpcdh_00119/par=
+ossefuse/jianyany/metalECO/metalECO_WW12.6b/runs/parossefuse/1276.5/assembly/=
+outputs<br>Finish A path: /nfs/site/disks/zsc11_nvlpcdh_00119/parossefuse/jia=
+nyany/metalECO/metalECO_WW12.6b/runs/parossefuse/1276.5/apr_fc/outputs/finish=
+<br>Finish B path: /nfs/site/disks/zsc11_nvlpcdh_00119/parossefuse/jianyany/m=
+etalECO/metalECO_WW12.6b/runs/parossefuse/1276.5/release/latest/finish</div><=
+br>
+<h3>Timestamps</h3>
+<table><thead><tr><th>project</th><th>block</th><th>file</th><th>assembly_tim=
+estamp</th><th>finish_a_timestamp</th><th>finish_b_timestamp</th></tr></thead=
+><tbody><tr><td>PCDS</td><td>parfuse</td><td>parfuse.sp</td><td>2026-03-21 08=
+:51:06</td><td class=3D'missing'>MISSING</td><td class=3D'missing'>MISSING</t=
+d></tr><tr><td>PCDS</td><td>parfuse</td><td>parfuse.oas</td><td>2026-03-21 10=
+:00:56</td><td class=3D'missing'>MISSING</td><td class=3D'missing'>MISSING</t=
+d></tr><tr><td>PCDH</td><td>parfuse</td><td>parfuse.sp</td><td>2026-03-21 10:=
+39:32</td><td>2026-03-21 10:39:32</td><td>2026-03-21 10:39:32</td></tr><tr><t=
+d>PCDH</td><td>parfuse</td><td>parfuse.oas</td><td>2026-03-21 10:44:15</td><t=
+d>2026-03-21 10:44:15</td><td>2026-03-21 10:44:15</td></tr><tr><td>PCDS</td><=
+td>parossefuse</td><td>parossefuse.sp</td><td>2026-03-21 11:09:31</td><td>202=
+6-03-21 11:09:31</td><td>2026-03-21 11:09:31</td></tr><tr><td>PCDS</td><td>pa=
+rossefuse</td><td>parossefuse.oas</td><td>2026-03-21 11:13:24</td><td>2026-03=
+-21 11:13:24</td><td>2026-03-21 11:13:24</td></tr><tr><td>PCDH</td><td>paross=
+efuse</td><td>parossefuse.sp</td><td class=3D'missing'>MISSING</td><td class=
+=3D'missing'>MISSING</td><td class=3D'missing'>MISSING</td></tr><tr><td>PCDH<=
+/td><td>parossefuse</td><td>parossefuse.oas</td><td class=3D'missing'>MISSING=
+</td><td class=3D'missing'>MISSING</td><td class=3D'missing'>MISSING</td></tr=
+></tbody></table>
+<h3>gmd5sum</h3>
+<table><thead><tr><th>project</th><th>block</th><th>file</th><th>assembly_md5=
+</th><th>finish_a_md5</th><th>finish_b_md5</th><th>assembly_vs_finish_a_match=
+</th><th>assembly_vs_finish_b_match</th><th>finish_a_vs_finish_b_match</th></=
+tr></thead><tbody><tr><td>PCDS</td><td>parfuse</td><td>parfuse.sp</td><td>c9b=
+80b18cce4a2d8790bb9c0b1098751</td><td class=3D'missing'>MISSING</td><td class=
+=3D'missing'>MISSING</td><td class=3D'mismatch'>NO</td><td class=3D'mismatch'=
+>NO</td><td class=3D'mismatch'>NO</td></tr><tr><td>PCDS</td><td>parfuse</td><=
+td>parfuse.oas</td><td>51681ebb879b8a6b34f8886cb0d6bb6f</td><td class=3D'miss=
+ing'>MISSING</td><td class=3D'missing'>MISSING</td><td class=3D'mismatch'>NO<=
+/td><td class=3D'mismatch'>NO</td><td class=3D'mismatch'>NO</td></tr><tr><td>=
+PCDH</td><td>parfuse</td><td>parfuse.sp</td><td>967071843f23eaf2639bb2f0abc86=
+1dc</td><td>967071843f23eaf2639bb2f0abc861dc</td><td>967071843f23eaf2639bb2f0=
+abc861dc</td><td>YES</td><td>YES</td><td>YES</td></tr><tr><td>PCDH</td><td>pa=
+rfuse</td><td>parfuse.oas</td><td>ace61a1eebb55b23737191a806b6b145</td><td>ac=
+e61a1eebb55b23737191a806b6b145</td><td>ace61a1eebb55b23737191a806b6b145</td><=
+td>YES</td><td>YES</td><td>YES</td></tr><tr><td>PCDS</td><td>parossefuse</td>=
+<td>parossefuse.sp</td><td>dc214abdf3fa151a6eabd20a52a84c64</td><td>dc214abdf=
+3fa151a6eabd20a52a84c64</td><td>dc214abdf3fa151a6eabd20a52a84c64</td><td>YES<=
+/td><td>YES</td><td>YES</td></tr><tr><td>PCDS</td><td>parossefuse</td><td>par=
+ossefuse.oas</td><td>077cb7f7ecca18334a74265a58f7cd62</td><td>077cb7f7ecca183=
+34a74265a58f7cd62</td><td>077cb7f7ecca18334a74265a58f7cd62</td><td>YES</td><t=
+d>YES</td><td>YES</td></tr><tr><td>PCDH</td><td>parossefuse</td><td>parossefu=
+se.sp</td><td class=3D'missing'>MISSING</td><td class=3D'missing'>MISSING</td=
+><td class=3D'missing'>MISSING</td><td class=3D'mismatch'>NO</td><td class=3D=
+'mismatch'>NO</td><td class=3D'mismatch'>NO</td></tr><tr><td>PCDH</td><td>par=
+ossefuse</td><td>parossefuse.oas</td><td class=3D'missing'>MISSING</td><td cl=
+ass=3D'missing'>MISSING</td><td class=3D'missing'>MISSING</td><td class=3D'mi=
+smatch'>NO</td><td class=3D'mismatch'>NO</td><td class=3D'mismatch'>NO</td></=
+tr></tbody></table>
+<h3>DRC output paths</h3>
+<ul><li>parfuse (PCDS) (/nfs/site/disks/zsc11_nvlpcd_00097/parfuse/tankhaij/B=
+0/metalECO_B0TI_prime/runs/parfuse/1276.5): /nfs/site/disks/zsc11_nvlpcd_0009=
+7/parfuse/tankhaij/B0/metalECO_B0TI_prime/runs/parfuse/1276.5/lv_icv/reports/=
+parfuse.violation_summary_drc | total_errors=3DUNKNOWN</li><li>parfuse (PCDH)=
+ (/nfs/site/disks/zsc11_nvlpcdh_00077/parfuse/wooiphan/B0/metalECO_26ww12p6v3=
+/runs/parfuse/1276.5): /nfs/site/disks/zsc11_nvlpcdh_00077/parfuse/wooiphan/B=
+0/metalECO_26ww12p6v3/runs/parfuse/1276.5/lv_icv/reports/parfuse.violation_su=
+mmary_drc | total_errors=3D527</li><li>parossefuse (PCDS) (/nfs/site/disks/zs=
+c11_nvlpcd_00108/parossefuse/gting/B0/WW13_prime_eco_manual/runs/parossefuse/=
+1276.5): /nfs/site/disks/zsc11_nvlpcd_00108/parossefuse/gting/B0/WW13_prime_e=
+co_manual/runs/parossefuse/1276.5/lv_icv/reports/parossefuse.violation_summar=
+y_drc | total_errors=3D669</li><li>parossefuse (PCDH) (/nfs/site/disks/zsc11_=
+nvlpcdh_00119/parossefuse/jianyany/metalECO/metalECO_WW12.6b/runs/parossefuse=
+/1276.5): /nfs/site/disks/zsc11_nvlpcdh_00119/parossefuse/jianyany/metalECO/m=
+etalECO_WW12.6b/runs/parossefuse/1276.5/lv_icv/reports/parossefuse.violation_=
+summary_drc | total_errors=3DUNKNOWN</li></ul>
+<h3>DRC total count by partition</h3>
+<table><thead><tr><th>project</th><th>block</th><th>partition</th><th>total_d=
+rc_count</th><th>status</th></tr></thead><tbody><tr><td>PCDH</td><td>parfuse<=
+/td><td>/nfs/site/disks/zsc11_nvlpcdh_00077/parfuse/wooiphan/B0/metalECO_26ww=
+12p6v3/runs/parfuse/1276.5</td><td>527</td><td>OK</td></tr><tr><td>PCDH</td><=
+td>parossefuse</td><td>/nfs/site/disks/zsc11_nvlpcdh_00119/parossefuse/jianya=
+ny/metalECO/metalECO_WW12.6b/runs/parossefuse/1276.5</td><td>UNKNOWN</td><td>=
+File not found: /nfs/site/disks/zsc11_nvlpcdh_00119/parossefuse/jianyany/meta=
+lECO/metalECO_WW12.6b/runs/parossefuse/1276.5/lv_icv/reports/parossefuse.viol=
+ation_summary_drc</td></tr><tr><td>PCDS</td><td>parfuse</td><td>/nfs/site/dis=
+ks/zsc11_nvlpcd_00097/parfuse/tankhaij/B0/metalECO_B0TI_prime/runs/parfuse/12=
+76.5</td><td>UNKNOWN</td><td>File not found: /nfs/site/disks/zsc11_nvlpcd_000=
+97/parfuse/tankhaij/B0/metalECO_B0TI_prime/runs/parfuse/1276.5/lv_icv/reports=
+/parfuse.violation_summary_drc</td></tr><tr><td>PCDS</td><td>parossefuse</td>=
+<td>/nfs/site/disks/zsc11_nvlpcd_00108/parossefuse/gting/B0/WW13_prime_eco_ma=
+nual/runs/parossefuse/1276.5</td><td>669</td><td>OK</td></tr></tbody></table>
+<h3>DRC errors/rules by block</h3>
+<table><thead><tr><th>parfuse (PCDH)<br><span style=3D'font-weight:normal'>Er=
+rors=3D527</span></th><th>parfuse (PCDS)<br><span style=3D'font-weight:normal=
+'>Errors=3DUNKNOWN</span></th><th>parossefuse (PCDH)<br><span style=3D'font-w=
+eight:normal'>Errors=3DUNKNOWN</span></th><th>parossefuse (PCDS)<br><span sty=
+le=3D'font-weight:normal'>Errors=3D669</span></th><th>missing/nofound</th></t=
+r></thead><tbody><tr><td>M3_203<br>M3_205<br>M3_30<br>M3_44<br>M3_601<br>M4HA=
+_206<br>M4_100<br>M4_30<br>M4_60<br>M4_ER1<br>M5HA_206<br>M5_100<br>M5_201<br=
+>M5_203<br>M5_205<br>M5_223<br>M5_30<br>M5_41/M5_411<br>M5_42<br>M5_44<br>M5_=
+60<br>M5_ER1<br>M6_100<br>M6_201<br>M6_203<br>M6_205<br>M6_223<br>M6_30<br>M6=
+_42<br>M6_44<br>V2_01<br>V2_26<br>V2_28<br>V2_61<br>V3_199<br>V4_01<br>V4_23<=
+br>V4_24<br>V4_28<br>V4_ER4<br>V5_01<br>V5_10/V5_101<br>V5_33<br>ZM3_223<br>Z=
+M3_30<br>ZM3_41<br>ZM3_411<br>ZM3_53<br>ZM4HA_206<br>ZM4_100<br>ZM4_203<br>ZM=
+4_205<br>ZM4_206<br>ZM4_21<br>ZM4_223<br>ZM4_30<br>ZM4_41<br>ZM4_411/ZM4_412<=
+br>ZM4_44<br>ZM4_51<br>ZM4_52<br>ZM4_53<br>ZV2_28<br>ZV2_61<br>m10_Myb_148<br=
+>m10_Myb_149/m10_Myb_199<br>m10_Myb_21_22_23_24_25_26_299_W01<br>m10_Myb_39/m=
+10_Myb_391/m10_Myb_399<br>m10_Myb_41<br>m10_Myb_52<br>m10_Myb_60<br>m10_Myb_7=
+0<br>m10_Myb_ER0<br>m10_Myb_ER1<br>m11_Myc_41<br>m11_Myc_80<br>m11_Myc_ER1<br=
+>m7_Mya_148<br>m7_Mya_149/m7_Mya_199<br>m7_Mya_21_22_23_24_25_26_27_28_29_201=
+_202_203_204_205  _46_W01<br>m7_Mya_27_28_206_207_208_209_210_211_212_213_214=
+_215_  46_W02<br>m7_Mya_36<br>m7_Mya_39/m7_Mya_391/m7_Mya_399<br>m7_Mya_41<br=
+>m7_Mya_60<br>m7_Mya_64<br>m7_Mya_70<br>m7_Mya_71<br>m7_Mya_80<br>m7_Mya_ER1<=
+br>m8_Mya_148<br>m8_Mya_149/m8_Mya_199<br>m8_Mya_39/m8_Mya_391/m8_Mya_399<br>=
+m8_Mya_41<br>m8_Mya_60<br>m8_Mya_64<br>m8_Mya_80<br>m8_Mya_ER1<br>m9_Myb_148<=
+br>m9_Myb_149/m9_Myb_199<br>m9_Myb_39/m9_Myb_391/m9_Myb_399<br>m9_Myb_41<br>m=
+9_Myb_60<br>m9_Myb_80<br>m9_Myb_ER1<br>v10_Vybyc_23<br>v10_Vybyc_28<br>v10_Vy=
+byc_32<br>v10_Vybyc_33<br>v10_Vybyc_41<br>v10_Vybyc_43<br>v10_Vybyc_49<br>v10=
+_Vybyc_ER4<br>v6_Vm6ya_01<br>v6_Vm6ya_10/v6_Vm6ya_101<br>v6_Vm6ya_23<br>v6_Vm=
+6ya_24<br>v6_Vm6ya_28<br>v6_Vm6ya_ER4<br>v7_Vya_10<br>v7_Vya_23<br>v7_Vya_28<=
+br>v7_Vya_33<br>v7_Vya_41<br>v7_Vya_ER4<br>v8_Vyayb_23<br>v8_Vyayb_28<br>v8_V=
+yayb_ER4<br>v9_Vyb_01<br>v9_Vyb_32<br>v9_Vyb_33<br>v9_Vyb_61</td><td class=3D=
+'missing'>MISSING</td><td class=3D'missing'>MISSING</td><td>M4_30<br>M4_60<br=
+>M5HA_206<br>M5_100<br>M5_201<br>M5_203<br>M5_205<br>M5_206<br>M5_223<br>M5_3=
+0<br>M5_41/M5_411<br>M5_42<br>M5_44<br>M5_ER1<br>M6_100<br>M6_201<br>M6_203<b=
+r>M6_205<br>M6_206<br>M6_30<br>M6_41/M6_411<br>M6_42<br>M6_44<br>M6_ER1<br>V2=
+_128<br>V2_199<br>V2_26<br>V2_28<br>V2_97<br>V2_99<br>V3_01<br>V3_199<br>V3_3=
+2<br>V3_33<br>V3_40<br>V3_41<br>V3_49<br>V3_61<br>V4_128<br>V4_23<br>V4_24<br=
+>V4_28<br>V4_32/V4_321<br>V4_ER4<br>V5_32<br>V5_33<br>ZM3_51<br>ZM3_53<br>ZM4=
+_202<br>ZM4_203<br>ZM4_205<br>ZM4_30<br>ZM4_44<br>ZM4_51<br>ZM4_52<br>ZM4_53<=
+br>ZV2_28<br>ZV3_128<br>ZV3_24<br>m7_Mya_148<br>m7_Mya_149/m7_Mya_199<br>m7_M=
+ya_41<br>m7_Mya_80<br>m7_Mya_ER1<br>m8_Mya_149/m8_Mya_199<br>m8_Mya_41<br>m9_=
+Myb_149/m9_Myb_199<br>m9_Myb_39/m9_Myb_391/m9_Myb_399<br>v6_Vm6ya_23<br>v6_Vm=
+6ya_24<br>v6_Vm6ya_28<br>v6_Vm6ya_32<br>v6_Vm6ya_33<br>v6_Vm6ya_ER4<br>v7_Vya=
+_33</td><td class=3D'missing'>parfuse (PCDS): missing/nofound<br>parossefuse =
+(PCDH): missing/nofound</td></tr></tbody></table>
+</body></html>
+
+--===============4933561886403876958==--

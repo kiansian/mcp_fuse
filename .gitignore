@@ -1,0 +1,7 @@
+pycache/
+*.pyc
+pycache/
+*.pyc
+*.swp
+cache/
+vscode_userdata/

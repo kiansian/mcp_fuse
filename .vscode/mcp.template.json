@@ -1,0 +1,26 @@
+{
+    "servers": {
+        "chatbot_server": {
+            "type": "stdio",
+            "command": "${env:AUTOBOTS_PYTHON}",
+            "args": [
+                "${workspaceFolder}/${env:MCP_CHATBOT_DIR}/mcp/server.py"
+            ],
+            "env": {
+                "AUTOBOTS_SDK_TOOL_PATH": "${env:AUTOBOTS_SDK_TOOL_PATH}",
+                "AUTOBOTS_SDK_VENV_PATH": "${env:AUTOBOTS_SDK_VENV_PATH}"
+            }
+        },
+        "mcp_power_server": {
+            "type": "stdio",
+            "command": "${env:AUTOBOTS_PYTHON}",
+            "args": [
+                "${workspaceFolder}/${env:MCP_POWER_DIR}/mcp_power/server.py"
+            ],
+            "env": {
+                "AUTOBOTS_SDK_TOOL_PATH": "${env:AUTOBOTS_SDK_TOOL_PATH}",
+                "AUTOBOTS_SDK_VENV_PATH": "${env:AUTOBOTS_SDK_VENV_PATH}"
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+Subject: WARD apr_fc assembly log check: mfzsenseldo.oas
+From: fusion-compiler-bot@intel.com
+To: kian.sian.goh@intel.com
+Date: Thu, 26 Mar 2026 04:29:04 -0700
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Checked path pattern per WARD entries:
+apr_fc/outputs/finish/assembly/logs/<block>.layout_assembly.log
+
+Total WARD entries: 4
+
+[PCDH][parfuse] /nfs/site/disks/zsc11_nvlpcdh_00077/parfuse/wooiphan/B0/metal=
+ECO_26ww13p3final/runs/parfuse/1276.5/apr_fc/outputs/finish/assembly/logs/par=
+fuse.layout_assembly.log:11
+  INTEL_INFO : Received layout item : /nfs/site/disks/zsc11_nvlpcd_00006/IPX/=
+fuse_hip.p765_mfz/fuse_hip.p765_mfz@1.efv_nvlpcd_eco/fuse_hip.p765_mfz/adfuse=
+_mfz_pic765_nvl_eco_26ww13/mfzsenseldo/physical/oasis/mfzsenseldo.oas (layout=
+_assembly) [Thu Mar 26 03:09:30 2026]
+
+[PCDH][parossefuse] /nfs/site/disks/zsc11_nvlpcdh_00119/parossefuse/jianyany/=
+metalECO/metalECO_26WW13.4_ldohip/runs/parossefuse/1276.5/apr_fc/outputs/fini=
+sh/assembly/logs/parossefuse.layout_assembly.log:12
+  INTEL_INFO : Received layout item : /nfs/site/disks/zsc11_nvlpcd_00006/IPX/=
+fuse_hip.p765_mfz/fuse_hip.p765_mfz@1.efv_nvlpcd_eco/fuse_hip.p765_mfz/adfuse=
+_mfz_pic765_nvl_eco_26ww13/mfzsenseldo/physical/oasis/mfzsenseldo.oas (layout=
+_assembly) [Thu Mar 26 03:17:39 2026]
+
+[PCDS][parfuse] /nfs/site/disks/zsc11_nvlpcd_00097/parfuse/tankhaij/B0/metalE=
+CO_B0_prime_caliber_2_refresh/runs/parfuse/1276.5/apr_fc/outputs/finish/assem=
+bly/logs/parfuse.layout_assembly.log:11
+  INTEL_INFO : Received layout item : /nfs/site/disks/zsc11_nvlpcd_00006/IPX/=
+fuse_hip.p765_mfz/fuse_hip.p765_mfz@1.efv_nvlpcd_eco/fuse_hip.p765_mfz/adfuse=
+_mfz_pic765_nvl_eco_26ww13/mfzsenseldo/physical/oasis/mfzsenseldo.oas (layout=
+_assembly) [Thu Mar 26 03:00:41 2026]
+
+[PCDS][parossefuse] /nfs/site/disks/zsc11_nvlpcd_00108/parossefuse/gting/B0/W=
+W13_prime_eco_ldo/runs/parossefuse/1276.5/apr_fc/outputs/finish/assembly/logs=
+/parossefuse.layout_assembly.log:12
+  INTEL_INFO : Received layout item : /nfs/site/disks/zsc11_nvlpcd_00006/IPX/=
+fuse_hip.p765_mfz/fuse_hip.p765_mfz@1.efv_nvlpcd_eco/fuse_hip.p765_mfz/adfuse=
+_mfz_pic765_nvl_eco_26ww13/mfzsenseldo/physical/oasis/mfzsenseldo.oas (layout=
+_assembly) [Thu Mar 26 02:54:48 2026]

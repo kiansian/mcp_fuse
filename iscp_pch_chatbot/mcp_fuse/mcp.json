@@ -1,0 +1,20 @@
+{
+  "servers": {
+    "fusion_compiler_fuse": {
+      "type": "stdio",
+      "command": "/p/hdk/pu_tu/prd/autobots_sdk/2.2.2/venv_autobots/bin/python",
+      "args": [
+        "/nfs/site/disks/zsc11_nvlpcd_00026/kgoh14/AI_TEST/WW13.7_TEST/iscp_pch_chatbot/mcp_fuse/server.py"
+      ],
+      "env": {
+        "AUTOBOTS_SDK_TOOL_PATH": "/p/hdk/pu_tu/prd/autobots_sdk/prod/",
+        "AUTOBOTS_SDK_VENV_PATH": "/p/hdk/pu_tu/prd/autobots_sdk/prod/venv_autobots/lib/python3.11/site-packages/",
+        "AUTOBOTS_BOOTSTRAP_INSTALL": "1",
+        "AUTOBOTS_PIP_INDEX_URL": "",
+        "AUTOBOTS_PIP_EXTRA_INDEX_URL": "",
+        "AUTOBOTS_PIP_TRUSTED_HOST": "",
+        "PEO_LINK": "/nfs/site/disks/zsc16_ttlpcd_00006/sd/PEO_link/WW11P5_PDK1p0"
+      }
+    }
+  }
+}

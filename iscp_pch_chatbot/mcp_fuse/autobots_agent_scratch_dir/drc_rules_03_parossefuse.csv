@@ -1,0 +1,93 @@
+line_no,count,description,rule_name
+71,4,M2_100: Non-rectangular Big ETE space regions are   not allowed. 0.0,M2_100
+72,2,M2_203: Min separation in OGD between [Big ETEs]   and [Small or Merged or Long ETEs]. Applies also   to End of design. 0.15 um,M2_203
+73,1,"M2_30: Priority1 - All Metal2 tracks need to be fully  populated [lines drawn in alternating B-C-B-C-B   sequence], except for end-to-end spaces at   M2_41/411/412/413/42. 0.0",M2_30
+74,1,M2_57: Min metal length that is allowed to be   surrounded by ETEs on all four sides 0.115 um,M2_57
+75,4,M3_100: Non-rectangular BIG ETE space regions are   not allowed. 0.0,M3_100
+76,10,M3_203: Min separation in PGD between [Big ETEs]   and [Small or Merged or Long ETEs]. Applies also   to End of design. 0.15 um,M3_203
+77,18,M3_205: Min separation in OGD between [Big ETEs]   and [Small or Merged or Long ETEs] (exception:   M3HA_206 for Big ETEs to [Small or Merged ETEs]   within halo ID regions) 0.155 um,M3_205
+78,9,"M3_30: Priority1 - All Metal3 tracks need to be fully  populated [lines drawn in alternating B-C-B-C-B   sequence], except for end-to-end spaces at   M3_41/411/412/413/42. 0.0",M3_30
+79,2,M3_419: Max width of a Metal3 line that is allowed   to have Merged ETEs or Long ETEs 0.06,M3_419
+80,6,"M3_44: Big ETE space region, minimum width in OGD   0.115 um",M3_44
+81,3,M3_ER1: Priority1 - Global min space between METAL3   0.02 um,M3_ER1
+82,1,M4HA_206: Min separation in PGD between Big ETE and   [Variable or Big ETE] when separation crosses   depopulated metal tracks within 240nm PGD distance   from HaloID outer OGD edge (both aligned and   non-aligned). 0.11 um,M4HA_206
+83,2,M4_100: Non-rectangular ETE space regions are not   allowed. 0.0,M4_100
+84,8,"M4_30: Priority1 - All Metal4 tracks need to be fully  populated [lines drawn in alternating B-C-B-C-B   sequence], except for end-to-end spaces at M4_41/42.   0.0",M4_30
+85,5,M4_ER1: Priority1 - Global min space between METAL4   0.02 um,M4_ER1
+86,1,M5HA_206: Min separation in OGD between Big ETE and   [Variable or Big ETE] when separation crosses   depopulated metal tracks within 200nm OGD distance   from HaloID outer PGD edge (both aligned and   non-aligned). 0.08799999999999999 um,M5HA_206
+87,27,M5_100: Priority2 - Non-rectangular ETE space regions  are not allowed. 0.0,M5_100
+88,74,M5_201: Min separation in OGD between M5 Variable   ETEs 0.116 um,M5_201
+89,14,M5_203: Min separation in PGD between Variable and   Big ETE plugs (applies also to End of design) 0.13 um,M5_203
+90,23,M5_205: Min separation in OGD between Variable and   Big ETE plugs (exception: M5HA_206 for Variable and   Big ETEs within HaloID regions) 0.148 um,M5_205
+91,4,M5_206: Min separation in OGD between Big ETE plugs   (both aligned and non-aligned) (exception: M5HA_206   for Big ETEs within HaloID regions) 0.148 um,M5_206
+92,1,M5_223: Min separation in PGD between Big ETE space   regions 0.54 um,M5_223
+93,16,"M5_30: Priority2 - All Metal5 tracks need to be fully  populated [lines drawn in alternating B-C-B-C-B   sequence], except for end-to-end spaces at   M5_41/42/43. 0.0",M5_30
+94,4,"M5_41/M5_411: Priority1 - Minimum Variable End-to-end  space (PGD), when line-ends are completely aligned   and lines are same type (B-B, C-C) 0.04 Maximum   Variable End-to-end space (PGD), when line-ends are   completely aligned and lines are same type (B-B,   C-C) 0.16  0.16 um",M5_41/M5_411
+95,33,"M5_42: Priority1 - Big End-to-end space (fixed value,  PGD), when line-ends are not completely aligned or   lines are of different type (B-C) (also allowed for   same-type lines with aligned line-ends) 0.18 um",M5_42
+96,18,"M5_44: Priority2 - Big ETE space region, minimum   width in OGD (exception: M5HA_44 for Big ETE within   HaloID region) 0.115 um",M5_44
+97,2,M5_ER1: Priority1 - Global min space between METAL5   0.028 um,M5_ER1
+98,24,M6_100: Priority2 - Non-rectangular ETE space regions  are not allowed. 0.0,M6_100
+99,214,M6_201: Min separation in PGD between M6 Variable   ETEs 0.116 um,M6_201
+100,7,M6_203: Min separation in OGD between Variable and   Big ETE plugs (applies also to End of design) 0.1375   um,M6_203
+101,13,M6_205: Min separation in PGD between Variable and   Big ETE plugs (exception: M6HA_206 for Variable and   Big ETEs within HaloID regions) 0.148 um,M6_205
+102,2,M6_206: Min separation in PGD between Big ETE plugs   (both aligned and non-aligned) (exception: M6HA_206   for Big ETEs within HaloID regions) 0.148 um,M6_206
+103,17,"M6_30: Priority2 - All Metal6 tracks need to be fully  populated [lines drawn in alternating B-C-B-C-B   sequence], except for end-to-end spaces at   M6_41/411/42/43. 0.0",M6_30
+104,6,"M6_41/M6_411: Priority1 - Minimum Variable End-to-end  space (OGD), when line-ends are completely aligned   and lines are same type (B-B, C-C) 0.04 Maximum   Variable End-to-end space (OGD), when line-ends are   completely aligned and lines are same type (B-B,   C-C) 0.16  0.16 um",M6_41/M6_411
+105,32,"M6_42: Priority1 - Big End-to-end space (fixed value,  OGD), when line-ends are not completely aligned or   lines are of different type (B-C) (also allowed for   same-type lines with aligned line-ends) 0.18 um",M6_42
+106,21,"M6_44: Priority2 - Big ETE space region, minimum   width in PGD (exception: M6HA_44 for Big ETE within   HaloID region) 0.115 um",M6_44
+107,3,M6_ER1: Priority1 - Global min space between METAL6   0.028 um,M6_ER1
+108,1,"V2_128: Priority2 - Min Via2-to-Via2 spacing in OGD   (V2_23 is an exception, since a doublet is treated   as a single via) 0.11 um",V2_128
+109,3,V2_199: Priority1 - A Via2 color purpose ID   (colorA/B/C) can be used to force a drawn Via2 layer   (color). ID must be drawn line-on-line for each via.   Only 1 ID allowed per drawn via. 0.0,V2_199
+110,4,"V2_26: Min Via2 corner-to-corner space allowed, for   a single isolated via pair when on adjacent Metal-3   tracks (must be spaced from other Via2s by >=V2_25)   0.083 um",V2_26
+111,1,V2_28: Priority2 - Min Via2-to-Via2 spacing in PGD   (skip one M2 track); allowed as Pair only if <V2_29   spacing (both Via2s must have width <=V2_02) 0.065 um,V2_28
+112,4,"V2_97: Priority2 - Min OGD space between different   Via2 drawn layers, i.e. ViaA2-to-ViaB2 0.065 um",V2_97
+113,1,"V2_99: Priority1 - No overlap is allowed between   different Via2 drawn layers (ViaA2, ViaB2, ViaC2).   0.0 um",V2_99
+114,1,V3_199: Priority1 - A Via3 color purpose ID   (colorA/B) can be used to force a drawn Via3 layer   (color). ID must be drawn line-on-line for each via.   Only 1 ID allowed per drawn via. 0.0,V3_199
+115,2,"V3_32: Min Via3 to Via2 space (on different nets),   where connectivity is checked in the substack of   (m4-v3-m3-v2-m2) 0.022 um",V3_32
+116,1,V4_128: Priority2 - Min Via4-to-Via4 spacing in OGD   (allows skip 1 M5 line >=46nm; V4_23 is an exception)  0.102 um,V4_128
+117,1,V4_23: Priority2 - Parallel full-facing metal-aligned  Via4 edges can be spaced at the minimum (fixed)   Metal5 space in OGD (a.k.a. via doublet) 0.028 um,V4_23
+118,2,"V4_24: Priority2 - Min Via4 corner-to-corner space   (if <V4_25, allowed as isolated pair only) 0.081 um",V4_24
+119,5,V4_28: Priority2 - Min Via4-to-Via4 spacing in PGD   (allows skip 1 M4 line >=36nm) 0.077 um,V4_28
+120,1,"V4_32/V4_321: Min Via4 to Via3 space (on different   nets), where connectivity is checked in the substack   of (m5-v4-m4-v3-m3) 0.022 Allowed exception to V4_32.  Requires a min Via4 to Via3 OGD offset (>=9 nm)   0.008999999999999999  0.008999999999999999 um",V4_32/V4_321
+121,2,V4_33: Minimum Via4 edge space to Metal4 0.02 um,V4_33
+122,1,V4_ER4: V4 global min space 0.028 um,V4_ER4
+123,3,"V5_32: Min Via5 to Via4 space (on different nets),   where connectivity is checked in the substack of   (m6-v5-m5-v4-m4) 0.032 um",V5_32
+124,1,V5_33: Minimum Via5 edge space to Metal5 0.028 um,V5_33
+125,5,ZM2_205: Min separation in PGD between [Big ETEs]   and [Small or Merged or Long ETEs] (exception:   M2HA_206 for Big ETEs to [Small or Merged ETEs]   within halo ID regions) 0.144 um,ZM2_205
+126,1,"ZM2_30: Priority1 - All tracks must be fully   populated with lines drawn in alternating B-C-B-C-B   sequence, except for valid end-to-end spaces; wide   (42nm) M2 line can violate B/C coloring. 0.0",ZM2_30
+127,1,"ZM2_44: Big ETE space region, minimum width in PGD   0.108 um",ZM2_44
+128,9,"ZM3_30: Priority1 - All tracks must be fully   populated with lines drawn in alternating B-C-B-C-B   sequence, except for valid end-to-end spaces; wide   (56nm or 80nm) M3 line can violate B/C coloring. 0.0",ZM3_30
+129,1,"ZM3_411: Priority1 - Merged End-to-end space range1,   min value (>=), when line-ends are completely aligned  and lines are same type (B-B, C-C)   0.07199999999999999 um",ZM3_411
+130,10,"ZM3_41: Priority1 - Small End-to-end space (fixed   value, PGD), when line-ends are completely aligned   and lines are same type (B-B, C-C) 0.03 um",ZM3_41
+131,1,ZM3_51: Min metal facing edge overlap for metals   on adjacent tracks 0.012 um,ZM3_51
+132,4,ZM3_52: Priority2 - Min overlap of ETEs on adjacent   tracks 0.03 um,ZM3_52
+133,18,ZM3_53: Min allowed length of an unfaced metal edge   (30 nm small ETE is an allowed exception) 0.042 um,ZM3_53
+134,1,ZM4HA_206: Min separation in PGD between Big ETE   and [Small or Merged or Big ETE] when separation   crosses depopulated metal tracks within 240nm PGD   distance from HaloID outer OGD edge (both aligned   and non-aligned). 0.1015 um,ZM4HA_206
+135,2,ZM4_100: Non-rectangular Big ETE space regions are   not allowed. 0.0,ZM4_100
+136,34,ZM4_203: Min separation in OGD between [Big ETEs]   and [Small or Merged or Long ETEs]. Applies also   to End of design. 0.15 um,ZM4_203
+137,41,ZM4_205: Min separation in PGD between [Big ETEs]   and [Small or Merged or Long ETEs] (exception:   M4HA_206 for Big ETEs to [Small or Merged ETEs]   within halo ID regions) 0.144 um,ZM4_205
+138,1,ZM4_206: Min separation in PGD between Big ETEs (both  aligned and non-aligned) (exception: M4HA_206 for   Big ETEs within halo ID regions) 0.144 um,ZM4_206
+139,8,"ZM4_30: Priority1 - All tracks must be fully   populated with lines drawn in alternating B-C-B-C-B   sequence, except for valid end-to-end spaces; wide   (42nm) M4 line can violate B/C coloring. 0.0",ZM4_30
+140,7,"ZM4_411/ZM4_412: Priority1 - Merged End-to-end space   range1, min value (>), when line-ends are completely   aligned and lines are same type (B-B, C-C) 0.035   Merged End-to-end space range1, max value (<=), when   line-ends are completely aligned and lines are same   type (B-B, C-C) 0.095  0.095 um",ZM4_411/ZM4_412
+141,14,"ZM4_41: Priority1 - Small End-to-end space (fixed   value, OGD), when line-ends are completely aligned   and lines are same type (B-B, C-C) 0.035 um",ZM4_41
+142,8,"ZM4_44: Big ETE space region, minimum width in PGD   0.108 um",ZM4_44
+143,16,ZM4_53: Min allowed length of an unfaced metal edge   0.035 um,ZM4_53
+144,1,ZV2_28: Minimum Via2-to-Via2 spacing in PGD   0.08500000000000001 um,ZV2_28
+145,1,"ZV3_128: Priority2 - Min Via3-to-Via3 spacing in   PGD (ZV3_23/123 is an exception, since a doublet   is treated as a single via) 0.102",ZV3_128
+146,4,ZV3_24: Priority2 - Min Via3 general corner-to-corner  space (must skip one M3 track until >=V3_25)   0.07199999999999999 um,ZV3_24
+147,1,"m7_Mya_148: Minimum overlap of line ends in opposite   directions when at least one line width is <=   m7_Mya_97 (56), checked for space up to m7_Mya_222   0.1 um",m7_Mya_148
+148,4,m7_Mya_149/m7_Mya_199: Line ends of width <=   m7_Mya_97 (56) cannot be exposed on either side (i.e.  must be fully shielded on both sides); applies only   for its min space range allowed (<= m7_Mya_222) and   when either exposed line side is < 120nm (m7_Mya_41)   0.0 Narrow linewidth exposure on both sides   (exception to m7_Mya_149) is allowed when its   line-end terminates at outermost Halo ID edge (or   Remainder ID if applicable) only 0.0  0.0 um,m7_Mya_149/m7_Mya_199
+149,2,m7_Mya_41: Priority1 - Min 84p m7 end-to-end space   0.12 um,m7_Mya_41
+150,2,"m7_Mya_80: Priority2 - Min corner-to-corner space,   when corners have no overlap 0.056 um",m7_Mya_80
+151,2,m7_Mya_ER1: Priority1 - Global min METAL7 space 0.04   um,m7_Mya_ER1
+152,1,m8_Mya_149/m8_Mya_199: Line ends of width <=   m8_Mya_97 (56) cannot be exposed on either side (i.e.  must be fully shielded on both sides); applies only   for its min space range allowed (<= m8_Mya_222) and   when either exposed line side is < 120nm (m8_Mya_41)   0.0 Narrow linewidth exposure on both sides   (exception to m8_Mya_149) is allowed when its   line-end terminates at outermost Halo ID edge (or   Remainder ID if applicable) only 0.0  0.0 um,m8_Mya_149/m8_Mya_199
+153,1,m8_Mya_41: Priority1 - Min 84p m8 end-to-end space   0.12 um,m8_Mya_41
+154,1,m9_Myb_149/m9_Myb_199: Line ends of width <=   m9_Myb_97 (68) cannot be exposed on either side (i.e.  must be fully shielded on both sides); applies only   for the min space range allowed (<= m9_Myb_28) and   when either exposed line side is < 116nm (m9_Myb_41)   0.0 Narrow linewidth exposure on both sides   (exception to m9_Myb_149) is allowed when its   line-end terminates at outermost Halo ID edge (or   Remainder ID if applicable) only 0.0  0.0 um,m9_Myb_149/m9_Myb_199
+155,16,m9_Myb_39/m9_Myb_391/m9_Myb_399: Narrow lines of   width < m9_Myb_39 (< 64 nm) cannot be exposed on   both sides; applies only when ETE on both sides of   the line are < m9_Myb_391 0.064 Max length of ETE   that applies for m9_Myb_39 0.472 Exposure on both   sides of a narrow linewidth (exception to m9_Myb_39)   is allowed within Halo ID OGD sections (and Remainder  ID if applicable) only 0.0  0.0,m9_Myb_39/m9_Myb_391/m9_Myb_399
+156,1,v6_Vm6ya_23: Priority2 - Parallel full-facing   metal-aligned v6 edges can be as closely spaced as   the minimum m7 space in OGD (a.k.a. via doublet)   0.04 um,v6_Vm6ya_23
+157,1,v6_Vm6ya_24: Priority2 - Min v6 corner-to-corner   space 0.096 um,v6_Vm6ya_24
+158,1,v6_Vm6ya_28: Priority2 - Min v6-to-v6 spacing in   PGD 0.08799999999999999 um,v6_Vm6ya_28
+159,1,"v6_Vm6ya_32: Min v6 to v5 space (on different nets),   where connectivity is checked in the substack of   (m7-v6-m6-v5-m5) 0.032 um",v6_Vm6ya_32
+160,1,v6_Vm6ya_33: Minimum v6 edge space to m6 0.028 um,v6_Vm6ya_33
+161,1,v6_Vm6ya_ER4: V6 global min space 0.04 um,v6_Vm6ya_ER4
+162,1,"v7_Vya_33: Minimum v7 edge space to m7 (on different   net), where connectivity is checked in the substack   of (v7-m7) 0.032 um",v7_Vya_33

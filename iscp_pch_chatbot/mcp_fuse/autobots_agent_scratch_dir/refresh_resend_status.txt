@@ -1,0 +1,5 @@
+TO=kian.sian.goh@intel.com
+SENT=YES
+HTML=/nfs/site/disks/zsc11_nvlpcd_00026/kgoh14/AI_TEST/sample_setup_official/vscode_copilot_fusion_compiler/iscp_pch_chatbot/mcp_fuse/autobots_agent_scratch_dir/block_artifact_report_with_drc_email.html
+EML=/nfs/site/disks/zsc11_nvlpcd_00026/kgoh14/AI_TEST/sample_setup_official/vscode_copilot_fusion_compiler/iscp_pch_chatbot/mcp_fuse/autobots_agent_scratch_dir/block_artifact_report_with_drc_email_to_kian.eml
+DRC_BLOCK_COLUMNS=4

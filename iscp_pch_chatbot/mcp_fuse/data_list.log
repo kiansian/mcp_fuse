@@ -1,0 +1,19 @@
+
+
+#WARD PCDH parfuse /nfs/site/disks/zsc11_nvlpcdh_00077/parfuse/wooiphan/B0/metalECO_26ww13p2/runs/parfuse/1276.5
+#WARD PCDH parossefuse /nfs/site/disks/zsc11_nvlpcdh_00119/parossefuse/jianyany/metalECO/metalECO_26WW12.6b/runs/parossefuse/1276.5
+#WARD PCDS parfuse /nfs/site/disks/zsc11_nvlpcd_00097/parfuse/tankhaij/B0/metalECO_B0_prime_caliber_2/runs/parfuse/1276.5
+#WARD PCDS parossefuse /nfs/site/disks/zsc11_nvlpcd_00108/parossefuse/gting/B0/WW13_prime_eco_manual/runs/parossefuse/1276.5
+
+WARD PCDH parfuse /nfs/site/disks/zsc11_nvlpcdh_00077/parfuse/wooiphan/B0/metalECO_26ww13p3/runs/parfuse/1276.5
+WARD PCDH parossefuse /nfs/site/disks/zsc11_nvlpcdh_00119/parossefuse/jianyany/metalECO/metalECO_26WW13.4_ldohip/runs/parossefuse/1276.5
+WARD PCDS parfuse /nfs/site/disks/zsc11_nvlpcd_00097/parfuse/tankhaij/B0/metalECO_B0_prime_caliber_2_refresh_2/runs/parfuse/1276.5
+WARD PCDS parossefuse /nfs/site/disks/zsc11_nvlpcd_00108/parossefuse/akohchee/B0/metalECO_B1_ww13p5_RV_fix/runs/parossefuse/1276.5
+#WARD PCDS parossefuse /nfs/site/disks/zsc11_nvlpcd_00097/parfuse/parossefuse/gting/metalECO_WW13.5/runs/parossefuse/1276.5
+ 
+
+
+XOR PCDH parfuse /nfs/site/disks/zsc11_nvlpcdh_00077/parfuse/kgoh14/WW12.6/runs/parfuse/1276.5/apr_fc/check_XOR/PCDH_parfuse_XOR.log
+XOR PCDH parossefuse /nfs/site/disks/zsc11_nvlpcdh_00077/parfuse/kgoh14/WW12.6/runs/parfuse/1276.5/apr_fc/check_XOR/PCDH_parossefuse_XOR.log
+XOR PCDS parfuse /nfs/site/disks/zsc11_nvlpcdh_00077/parfuse/kgoh14/WW12.6/runs/parfuse/1276.5/apr_fc/check_XOR/PCDS_parfuse_XOR.log
+XOR PCDS parossefuse /nfs/site/disks/zsc11_nvlpcdh_00077/parfuse/kgoh14/WW12.6/runs/parfuse/1276.5/apr_fc/check_XOR/PCDS_parossefuse_XOR.log

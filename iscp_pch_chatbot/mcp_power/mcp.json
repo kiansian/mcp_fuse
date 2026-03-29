@@ -1,0 +1,15 @@
+{
+  "servers": {
+    "fusion_compiler_power": {
+      "type": "stdio",
+      "command": "/p/hdk/pu_tu/prd/autobots_sdk/2.2.2/venv_autobots/bin/python",
+      "args": [
+        "/nfs/site/disks/zsc11_nvlpcd_00026/kgoh14/AI_TEST/WW13.7_TEST/iscp_pch_chatbot/mcp_power/server.py"
+      ],
+      "env": {
+        "AUTOBOTS_SDK_TOOL_PATH": "/p/hdk/pu_tu/prd/autobots_sdk/prod/",
+        "AUTOBOTS_SDK_VENV_PATH": "/p/hdk/pu_tu/prd/autobots_sdk/prod/venv_autobots/lib/python3.11/site-packages/"
+      }
+    }
+  }
+}
